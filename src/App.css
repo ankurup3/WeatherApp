@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient( #4cc9f0, #3a0ca3);
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40vw;
+    border-radius: 5px;
+    background: #96B6E8;
+
+  }
+
+.card:hover {
+    box-shadow: 10px 15px 24px 10px rgba(0,0,0,0.2);
+}
+
+.location, 
+.temperature {
+    height: 30vh;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+
+.temperature {
+    flex-direction: column;
+}
+
+.degree-section {
+    display: flex;
+    align-items: center;
+}
+
+.degree-section span {
+    margin: 5px;
+    font-size: 1.5vw;
+    align-items: center;
+    cursor: pointer;
+}
+
+.degree-section h2 {
+    font-size: 1.9vw;
+}
+
+
+.bg-image {
+    /* The image used */
+    background-image: url("https://www.holidify.com/images/bgImages/SILCHAR.jpg");
+    border-radius: 5px 5px 0 0;
+    /* Full height */
+    height: 30vh; 
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+.weather-icon {
+    height: 15vh;
+}
+
+
